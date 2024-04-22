@@ -1,0 +1,263 @@
+body {
+    margin-top: 100px;
+}
+/* Navbox-Styling */
+.nav-box {
+    display: flex;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+    background-color: #ff9f44;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.nav-box h3 {
+    margin: 0; 
+}
+
+.nav-box ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.nav-box li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.nav-box a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.nav-box a:hover {
+    text-decoration: underline; 
+}
+/* CSS für das Car-Layout */
+
+.car-container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 100px;
+    background-color: #f9f9f9;
+    
+}
+
+.car-column {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px; 
+    text-align: center; 
+    margin-top: 200px;
+}
+
+.car-column img {
+    width: 500px; 
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+/* CSS für das Info-Layout */
+.info-section {
+    background-color: white; 
+    padding: 20px; /* Abstand um den Text */
+    margin-top: 200px; /* Abstand von oben */
+    height: 84vh;
+    scroll-margin-top: 500px;
+}
+
+.info-container {
+    max-width: 700px;
+    margin: 0 auto; /* Zentrierung des Textabschnitts */
+}
+
+.info-container h2 {
+    font-size: 32px; /* Größe der Überschrift */
+    color: #333; /* Farbe der Überschrift */
+}
+
+.info-container p {
+    font-size: 16px; /* Größe des Textes */
+    color: #666; /* Farbe des Textes */
+}
+.car-rent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-rent img {
+    width: 500px; 
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.your_rents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.your_rents img {
+    width: 500px; 
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.icon-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-container li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.icon-container p {
+    font-size: 24px; 
+}
+.icon-container .fa-phone {
+    color: green;
+}
+.icon-container .fa-inbox{
+    color: blue;
+}
+.icon-container .fa-facebook{
+    color: #4267B2; 
+}
+.icon-container .fa-whatsapp{
+    color: #25D366;
+}
+.icon-container i:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.menu {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.menu ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 18px; 
+}
+
+.menu a:hover {
+    color: #555; 
+}
+.comment-form {
+   
+    text-align: center; 
+}
+
+.back-to-account {
+    margin-top: 20px; 
+    text-align: center; 
+}
+.comment-section  h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment-container {
+    height: 86vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.comment-column{
+    width: calc(50% - 10px);
+    text-align: center;
+    
+}
+.contact-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info p a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media li a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.social-media li a i {
+    font-size: 24px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+
